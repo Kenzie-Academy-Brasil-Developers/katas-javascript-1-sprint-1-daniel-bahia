@@ -41,7 +41,7 @@ console.log(oddsToTwenty())
 function multiplesOfFive() {
   let result =[] 
 
-  for (let i = 5; i <= 20; i+=5) {
+  for (let i = 5; i <= 100; i+=5) {
     result.push(i)
   }
  return result
@@ -113,7 +113,7 @@ console.log(oddNumbersBackwards())
 function multiplesOfFiveBackwards() {
  let result = []
 
-  for (i = 20; i >= 5; i-= 5){
+  for (i = 100; i >= 5; i-= 5){
    result.push(i)
 }
   return result
